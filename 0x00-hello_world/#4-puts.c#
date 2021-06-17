@@ -1,9 +1,10 @@
 #include<stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * struct my_struct - Short description
+ * @a: First member
+ * @b: Second member
  */
+
 int main(void){
     
     putchar("Programming is like building a multilingual puzzle\n");
