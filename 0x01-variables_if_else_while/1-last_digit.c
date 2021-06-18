@@ -29,8 +29,8 @@ printf("Last digit of %d is %d and is 0\n", n, n % 10);
 }
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (success)
- */	
+ */
 return (0);
 }
