@@ -22,11 +22,11 @@ printf("Last digit of %d is %d and is greater than 5\n", n,res);
 }
 if (res == 0)
 {
-print("Last digit of %d is %d and is %d\n", n,res,res);
+printf("Last digit of %d is %d and is %d\n", n,res,res);
 }
 if (res < 6)
 {
-print("Last digit of %d is %d and is less than 6 and not 0\n", n,res);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n,res);
 }
 /**
  * discription
