@@ -14,13 +14,9 @@ if (x == 'q' && x == 'e')
 {
 continue;
 }
-else
-{
 putchar(x);
 }
-}
 putchar('\n');
-
 /**
  * main - Entry point
  *
