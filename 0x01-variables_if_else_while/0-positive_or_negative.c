@@ -26,7 +26,8 @@ if (n < 0)
 printf("%d is negative\n", n);
 }
 /**
- *some discription files
+ *return function
  */
+#myfunction
 return (0);
 }
