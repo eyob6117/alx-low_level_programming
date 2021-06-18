@@ -10,7 +10,7 @@ int x;
 x = 'a';
 for (; x <= 'z'; x++)
 {
-if( x == q && x== e)
+if( x == 'q' && x== 'e')
 {
 continue;
 }
