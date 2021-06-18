@@ -19,6 +19,7 @@ else
 putchar(x);
 }
 putchar('\n');
+}
 /**
  * main - Entry point
  *
