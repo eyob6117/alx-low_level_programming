@@ -25,14 +25,17 @@ if (n < 0)
 {
 printf("%d is negative\n", n);
 }
-/* description */
+/**
+ * description
+ */
+return (0);
 /**
  * main - Entry point
  * 
  * Return: Always 0 (success)
  */
-return (0);
 }
+
 
 
 
