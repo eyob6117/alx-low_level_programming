@@ -15,18 +15,18 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 /* your code goes there */
 int res;
-res=n%10;
-if (res > 5)
+n=n%10;
+if (n > 5)
 {
-printf("Last digit of %d is %d and is greater than 5\n", n,res); 
+printf("Last digit of %d is %d and is greater than 5\n", n,n); 
 }
-if (res == 0)
+if (n == 0)
 {
-printf("Last digit of %d is %d and is %d\n", n,res,res);
+printf("Last digit of %d is %d and is %d\n", n,n,n);
 }
-if (res < 6)
+if (n < 6)
 {
-printf("Last digit of %d is %d and is less than 6 and not 0\n", n,res);
+printf("Last digit of %d is %d and is less than 6 and not 0\n", n,n);
 }
 /**
  * discription
