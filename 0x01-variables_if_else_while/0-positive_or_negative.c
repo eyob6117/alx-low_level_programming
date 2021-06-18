@@ -26,7 +26,9 @@ if (n < 0)
 printf("%d is negative\n", n);
 }
 /**
- *return function
+ * main - Entry point
+ * 
+ * Return: Always 0 (success)
  */
 return (0);
 }
