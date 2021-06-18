@@ -30,8 +30,9 @@ printf("%d is negative\n", n);
  * 
  * Return: Always 0 (success)
  */
-/**
- * descritption
- */
 return (0);
 }
+
+
+
+
