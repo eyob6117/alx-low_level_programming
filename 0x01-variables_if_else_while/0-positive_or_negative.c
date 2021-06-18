@@ -27,13 +27,8 @@ printf("%d is negative\n", n);
 }
 /**
  * main - Entry point
- * 
+ *
  * Return: Always 0 (success)
  */
 return (0);
 }
-
-
-
-
-
