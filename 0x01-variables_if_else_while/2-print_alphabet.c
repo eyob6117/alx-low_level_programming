@@ -10,6 +10,7 @@ int x;
 x = 'a';
 for (; x <= 'z'; x++)
 {
+putchar("\n");
 putchar(x);
 }
 /**
