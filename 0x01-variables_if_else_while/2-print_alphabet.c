@@ -12,7 +12,6 @@ for (; x <= 'z'; x++)
 {
 putchar(x);
 }
-putchar("\n")
 /**
  * main - Entry point
  *
