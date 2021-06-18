@@ -28,6 +28,5 @@ printf("%d is negative\n", n);
 /**
  *return function
  */
-#myfunction
 return (0);
 }
