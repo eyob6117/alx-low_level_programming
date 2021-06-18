@@ -13,12 +13,14 @@ for (; x <= 'z'; x++)
 {
 putchar(x);
 }
+putchar('\n');
 y = 'A';
 for (; y <= 'Z'; y++)
 {
 putchar(y);
 }
 /**
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
