@@ -13,12 +13,12 @@ for (; x <= 'z'; x++)
 {
 putchar(x);
 }
-putchar('\n');
 y = 'A';
 for (; y <= 'Z'; y++)
 {
 putchar(y);
 }
+putchar('\n');
 /**
  * main - Entry point
  *
