@@ -14,29 +14,40 @@ int n;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 /**
- * print postive value
+ * @c: This is longer description of C
+ *
+ * Description: You can use paragraphs to describe arguments
+ * using this method.
  */
-/* your code goes there */
 if (n > 0)
 {
 printf("%d is positive\n", n);
 }
 /**
- *print zero
+ * @c: This is longer description of C
+ *
+ * Description: You can use paragraphs to describe arguments
+ * using this method.
  */
 if (n == 0)
 {
 printf("%d is zero\n", n);
 }
 /**
- *print negative value"
+ * @c: This is longer description of C
+ *
+ * Description: You can use paragraphs to describe arguments
+ * using this method.
  */
 if (n < 0)
 {
 printf("%d is negative\n", n);
 }
 /**
- * return value
+ * @c: This is longer description of C
+ *
+ * Description: You can use paragraphs to describe arguments
+ * using this method.
  */
 return (0);
 }
