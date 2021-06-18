@@ -10,8 +10,9 @@ int x;
 x = 'a';
 for (; x <= 'z'; x++)
 {
-putchar(x"\n");
+putchar(x);
 }
+putchar("\n")
 /**
  * main - Entry point
  *
