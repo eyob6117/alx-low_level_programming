@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-fprintf(stderr, "and that piece of art is useful("") - Dora Korpar, 2015-10-19\n");
+fprintf(stderr, "and that piece of art is useful - Dora Korpar, 2015-10-19");
 /**
  * main - Entry point
  *
- * Return: Always 0 (Sucess)
+ * Return: Always 1 (Sucess)
  */
 return (1);
 }
