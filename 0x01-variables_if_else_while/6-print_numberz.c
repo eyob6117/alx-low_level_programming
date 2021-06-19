@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-int i=0;
-while (i<10)
+int i = 0;
+while (i < 10)
 {
-putchar(i);
+char(putchar(i));
 i++;
 }
 putchar('\n');
