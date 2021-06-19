@@ -14,7 +14,7 @@ while (i<10)
 putchar(i);
 i++;
 }
-putchar("\n");
+putchar('\n');
 /**
  * main - Entry point
  *
