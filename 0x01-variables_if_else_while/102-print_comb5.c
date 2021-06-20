@@ -1,34 +1,37 @@
 #include <stdio.h>
+
 /**
- * main - Print all possible combinations of single digit numbers
+ * main - Prints all possible combinations of two two-digit numbers,
+ *        ranging from 0-99, separated by a comma followed by a space.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-int i;
-int j;
-for (i = 0; i <= 9; i++)
+int num1, num2;
+for (num1 = 0; num1 <= 98; num1++)
 {
-for (j = 0; i <= 9; i++)
+for (num2 = num1 + 1; num2 <= 99; num2++)
 {
-putchar(i + '0');
-putchar(j + '0');
-
-if (!(i == 9 && j == 9))
-{
+putchar((num1 / 10) + '0');
+putchar((num1 % 10) + '0');
+putchar(' ');
+putchar((num2 / 10) + '0');
+putchar((num2 % 10) + '0');
+if (num1 == 98 && num2 == 99)
+continue;
 
 putchar(',');
 putchar(' ');
+}
+}
 
-}
-}
-}
 putchar('\n');
 /**
- * main - Print numbers from 00 to 99
+ * main - Prints all possible combinations of two two-digit numbers,
+ *        ranging from 0-99, separated by a comma followed by a space.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 return (0);
 }
