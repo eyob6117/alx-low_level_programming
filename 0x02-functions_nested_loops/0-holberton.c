@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main - Entry point
  *
@@ -6,7 +7,9 @@
  */
 int main(void)
 {
-putchar("Holberton");
+char s[20] = "Holberton";
+putchar(s[10]);
+}
  /**
  * main - Entry point
  *
