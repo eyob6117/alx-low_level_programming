@@ -7,13 +7,11 @@
  */
 int main(void)
 {
-char s[20] = "Holberton";
-putchar(s[10]);
-
+write(1,"holberton",59);
  /**
  * main - Entry point
  *
  * Return: Always 0 (success)
  */
-  return (0);
+return (0);
 }
