@@ -9,7 +9,7 @@ int main(void)
 {
 char s[20] = "Holberton";
 putchar(s[10]);
-}
+
  /**
  * main - Entry point
  *
