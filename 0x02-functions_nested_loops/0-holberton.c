@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h>
+#include "holberton.h"
 /**
  * main - Entry point
  *
@@ -7,7 +6,13 @@
  */
 int main(void)
 {
-write(1,"holberton",59);
+int i;
+char p[] = "Holberton"
+for (i = 0; i < 9; i++)
+{
+putchar(p[i])
+}
+putchar('\n');
  /**
  * main - Entry point
  *
