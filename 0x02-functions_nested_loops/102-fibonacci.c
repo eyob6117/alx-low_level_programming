@@ -1,23 +1,27 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - print fibonaci upto 59
  *
  * Return: Always sucess(0)
  */
 int main(void)
 {
-int a = 1;
-int b = 1;
-int res;
-int i;
-for (i = 0; i < 50; i++)
+int count;
+unsigned long fib1 = 0, fib2 = 1, sum;
+
+for (count = 0; count < 50; count++)
 {
-printf("%d", a);
-printf(",");
-res = a + b;
-a = b;
-b = res;
+sum = fib1 + fib2;
+printf("%lu", sum);
+
+fib1 = fib2;
+fib2 = sum;
+
+if (count == 49)
+printf("\n");
+else
+printf(", ");
 }
-printf(" ");
+
 return (0);
 }
