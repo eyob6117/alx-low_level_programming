@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int a;
+int a = 1;
 int b = 1;
 int res;
 int i;
@@ -17,5 +17,7 @@ res = a + b;
 a = b;
 b = res;
 }
+putchar(',');
+putchar('\n');
 return (0);
 }
