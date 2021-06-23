@@ -12,12 +12,12 @@ int res;
 int i;
 for (i = 0; i < 50; i++)
 {
-printf("%d",a);
+printf("%d", a);
+printf(",");
 res = a + b;
 a = b;
 b = res;
 }
-printf(",");
-printf("\n");
+printf(" ");
 return (0);
 }
