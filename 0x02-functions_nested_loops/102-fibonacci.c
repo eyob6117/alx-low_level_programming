@@ -4,13 +4,13 @@
  *
  * Return: Always sucess(0)
  */
-int main()
+int main(void)
 {
 int a;
 int b = 1;
 int res;
 int i;
-for(i = 0; i < 50; i++)
+for (i = 0; i < 50; i++)
 {
 putchar(a + '0');
 res = a + b;
