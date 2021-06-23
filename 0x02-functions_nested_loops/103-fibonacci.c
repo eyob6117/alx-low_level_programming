@@ -4,24 +4,24 @@
  *
  * Return: Always(0)
  */
+
 int main(void)
 {
+  unsigned long fib1 = 0, fib2 = 1, fibsum;
+  float tot_sum;
 
-int count;
-unsigned long fib1 = 0, fib2 = 1, sum;
-
-for (count = 0; count < 4000000; count++)
+while (1)
 {
+fibsum = fib1 + fib2;
+if (fibsum > 4000000)
+break;
 
-if (count % 2 == 0)
-{
-sum = fib1 + fib2;
-printf("%lu", sum);
+if ((fibsum % 2) == 0)
+tot_sum += fibsum;
 
 fib1 = fib2;
-fib2 = sum;
+fib2 = fibsum;
 }
-printf(" ");
-}
+printf("%.0f\n", tot_sum);
 return (0);
 }
