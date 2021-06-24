@@ -13,6 +13,6 @@ else
 return (0);
 int main(void)
 {
-is_upper(int c);
+_putchar(is_upper(int c));
 return (0);
 }
