@@ -7,8 +7,7 @@
 int main(void)
 {
 is_upper(int c);
-char ch = toupper(c);
-if (c == ch)
+if (isupper(c))
 return (1);
 else
 return (0);
