@@ -5,10 +5,11 @@
  */
 void print_line(int n)
 {
-char c;
-for (c = 0; c <= n; c++)
+int c;
+if (n > 0)
 {
+for (c = 0; c <= n; c++)
 _putchar('-');
+}
 _putcha('\n');
-}
-}
+
