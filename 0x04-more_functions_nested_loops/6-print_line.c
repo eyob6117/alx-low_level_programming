@@ -5,7 +5,8 @@
  */
 void print_line(int n)
 {
-for (n = 0; n <= 5; n++)
+char c;
+for (c = 0; c <= n; n++)
 {
 putchar('-');
 if(n <= 0)
