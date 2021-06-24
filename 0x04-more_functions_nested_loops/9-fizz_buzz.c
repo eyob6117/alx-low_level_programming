@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-  int num;
+int num;
 
 for (num = 1; num <= 100; num++)
 {
@@ -20,7 +20,8 @@ else if ((num % 3) == 0)
 printf("Fizz");
 
 else if ((num % 5) == 0)
-	printf("Buzz");
+printf("Buzz");
+
 else
 printf("%d", num);
 
