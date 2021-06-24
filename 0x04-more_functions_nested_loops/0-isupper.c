@@ -1,8 +1,9 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
  * main - check the code for uppercase
  *
- * Return: 1 or 0
+ * Return: Always(0)
  */
 int is_upper(int c)
 {
