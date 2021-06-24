@@ -8,7 +8,7 @@ void print_line(int n)
 char c;
 for (c = 0; c <= n; c++)
 {
-putchar('-');
-putcha('\n');
+_putchar('-');
+_putcha('\n');
 }
 }
