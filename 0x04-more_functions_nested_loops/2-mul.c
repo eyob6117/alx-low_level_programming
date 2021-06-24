@@ -1,9 +1,10 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * main - multiplication of two integers
- * 
- * Return: return the result
+ * mul - function that multiplies two integers
+ * @a: First integer
+ * @b: Second integer
+ * Return: mul.
  */
 int mul(int a, int b)
 {
