@@ -7,12 +7,8 @@
  */
 int is_upper(int c)
 {
-if (isupper(c))
+if (c >= 'A' && c <= 'Z')
 return (1);
 else
-return (0);
-int main(void)
-{
-_putchar(is_upper(int c));
 return (0);
 }
