@@ -2,7 +2,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-/*
+/**
  * File: holberton.h
  * Auth: Brennan D Baraban
  * Desc: Header file containing declarations for all functions
