@@ -6,10 +6,10 @@
 void print_line(int n)
 {
 char c;
-for (c = 0; c <= n; n++)
+for (c = 0; c <= n; c++)
 {
 putchar('-');
-if(n <= 0)
+if(c <= 0)
 {
 putcha('\n');
 }
