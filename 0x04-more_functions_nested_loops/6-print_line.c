@@ -9,9 +9,5 @@ char c;
 for (c = 0; c <= n; c++)
 {
 putchar('-');
-if(c <= 0)
-{
 putcha('\n');
-}
-}
 }
