@@ -11,3 +11,4 @@ for (c = 0; c <= n; c++)
 putchar('-');
 putcha('\n');
 }
+}
