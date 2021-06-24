@@ -1,24 +1,24 @@
 #include "holberton.h"
-#include <stdio.h>
-/**
- * print_square - function to print a square
- * @size: integer value
- */
 
+/**
+ * print_square - Prints a squareusing the character #.
+ * @size: The size of the square.
+ */
 void print_square(int size)
 {
-int i, j;
-
-if (size <= 0)
+int hgt, wid;
+if (size > 0)
 {
-for (i = 1; i < size; i++)
+for (hgt = 0; hgt < size; hgt++)
 {
-for (j = 1; j < size; j++)
-{
+for (wid = 0; wid < size; wid++)
 _putchar('#');
-}
+
+if (hgt == size - 1)
+continue;
 _putchar('\n');
 }
 }
+
 _putchar('\n');
 }
