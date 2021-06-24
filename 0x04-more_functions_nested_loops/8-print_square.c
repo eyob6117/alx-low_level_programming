@@ -2,13 +2,14 @@
 #include <stdio.h>
 /**
  * print_square - print a square
- * @size - integer value
+ * @size: integer value
  */
 
 void print_square(int size)
 {
 int i, j;
-if (n < 0)
+
+if (size < 0)
 {
 for (i = 1; i < size; i++)
 {
