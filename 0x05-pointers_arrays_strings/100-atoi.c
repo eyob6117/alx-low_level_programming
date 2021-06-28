@@ -10,8 +10,14 @@
 
 int _atoi(char *s)
 {
-int value;
-value = atoi(s);
-printf("%d", value);
-return (0);
+int i;
+int len;
+int result = 0;
+len = strlen(s);
+for (i = 0; i < len; i++)
+{
+result = result * 10 + (s[i] - '0');
+		 
+}
+printf("%d", result);
 }
