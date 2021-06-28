@@ -9,7 +9,5 @@ void print_rev(char *s)
 int len = strlen(s);
 int i;
 for (i = len; i >= 0; i--)
-{
-fwrite(1,s[i]);
-}
+s[i];
 }
