@@ -7,8 +7,7 @@
  * Return: Always
  */
 int _strlen(char *s)
-{
-int p = *s;  
-int len = strlen(p);
+{  
+int len = strlen(s);
 return (len);
 }
