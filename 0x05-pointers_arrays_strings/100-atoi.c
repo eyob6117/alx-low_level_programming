@@ -12,7 +12,7 @@ int _atoi(char *s)
 {
 int sign = 1;
 unsigned int num = 0;
-unsigned int result;
+int result;
 do {
 if (*s == '-')
 sign *= -1;
