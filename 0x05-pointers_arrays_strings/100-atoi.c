@@ -24,5 +24,5 @@ else if (num > 0)
 break;
 
 } while (*s++);
-return (0);
+return (sign*num);
 }
