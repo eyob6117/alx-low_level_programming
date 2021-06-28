@@ -23,7 +23,8 @@ num = (num * 10) + (*s - '0');
 else if (num > 0)
 break;
 
-} while (*s++);
 result = num * sign;
+} while (*s++);
+
 return (0);
 }
