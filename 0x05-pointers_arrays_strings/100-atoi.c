@@ -19,7 +19,7 @@ for (i = 0; i < len; i++)
 result = result * 10 + (s[i] - '0');
 		 
 }
- printf("%d", result - '0');
+printf("%d", +result);
 
 return (0);
 }
