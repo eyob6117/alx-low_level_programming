@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * puts - function that prints every other character of a string,with the
+ * puts2 - function that prints every other character of string,with the
  *    first charcter.
  * @str: pointer variable str
  */
