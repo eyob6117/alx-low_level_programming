@@ -12,7 +12,6 @@ int _atoi(char *s)
 {
 int sign = 1;
 unsigned int num = 0;
-int result;
 do {
 if (*s == '-')
 sign *= -1;
@@ -23,8 +22,7 @@ num = (num * 10) + (*s - '0');
 else if (num > 0)
 break;
 
-result = num * sign;
 } while (*s++);
-
+return (num * sign);
 return (0);
 }
