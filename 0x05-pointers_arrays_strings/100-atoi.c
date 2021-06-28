@@ -10,16 +10,23 @@
 
 int _atoi(char *s)
 {
-int i;
-int len;
-int result = 0;
-len = strlen(s);
-for (i = 0; i < len; i++)
-{
-result = result * 10 + (s[i] - '0');
-		 
-}
-printf("%d", -result);
+int sign = 1;
+unsigned int num = 0;
 
-return (0);
+do {
+
+if (*s == '-')
+sign *= -1;
+
+else if (*s >= '0' && *s <= '9')
+num = (num * 10) + (*s - '0');
+
+    
+else if (num > 0)
+break;
+
+}
+while (*s++);
+
+return (num * sign);
 }
