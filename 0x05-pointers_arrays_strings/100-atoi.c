@@ -12,6 +12,6 @@ int _atoi(char *s)
 {
 int value;
 value = atoi(s);
-_printf("%d", value);
+printf("%d", value);
 return (0);
 }
