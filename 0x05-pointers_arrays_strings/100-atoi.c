@@ -1,6 +1,6 @@
 #include "holberton.h"
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 /**
  * _atoi - function that convert a string to an integer
  * @s: char pointer variable
