@@ -14,7 +14,7 @@ for (i = len / 2; i < len; i++)
 {
 if (i % 2 != 0)
 {    
-len = (strlen(str) - 1) / 2;
+len = (strlen(str) + 1) / 2;
 }
 _putchar(str[i]);
 }
