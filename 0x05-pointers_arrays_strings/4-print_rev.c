@@ -10,6 +10,6 @@ int len = strlen(s);
 int i;
 for (i = len; i >= 0; i--)
 {
-printf("%c", s[i];
+  printf("%c", s[i]);
 }
 }
