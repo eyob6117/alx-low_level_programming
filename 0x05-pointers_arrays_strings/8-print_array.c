@@ -5,11 +5,8 @@
  * @a: pointer variable a
  * @n: intiger variable n
  */
-
 void print_array(int *a, int n)
 {
-int p[];
-a = p;
 int i;
 for (i = 0; i < n; i++)
 {
