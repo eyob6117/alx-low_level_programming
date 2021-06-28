@@ -1,0 +1,11 @@
+#include "holberton.h"
+#include <stdio.h>
+/**
+ * _atoi - function that convert a string to an integer
+ * @s: char pointer variable
+ *
+ * Return: int value
+ */
+
+int _atoi(char *s)
+{
