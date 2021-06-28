@@ -10,6 +10,6 @@ int len = strlen(s);
 int i;
 for (i = len; i >= 0; i--)
 {
-write(1,s[i]);
+fwrite(1,s[i]);
 }
 }
