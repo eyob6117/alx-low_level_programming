@@ -16,3 +16,4 @@ tmp = s[i];
 s[i] = s[len-i];
 s[len-i] = tmp;
 } 
+}
