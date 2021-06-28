@@ -5,7 +5,7 @@
  *    first charcter.
  * @str: pointer variable str
  */
-void puts(char *str)
+void puts2(char *str)
 {
 int len = strlen(str);
 int i;
