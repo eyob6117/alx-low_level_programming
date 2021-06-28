@@ -5,6 +5,7 @@
  *    including the terminatin null byte.
  * @dest: char pointer variable
  * @src: char pointer variable
+ * Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
