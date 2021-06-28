@@ -11,7 +11,9 @@ int i;
 for (i = 0; i < n; i++)
 {
 printf("%d",a[i]);
+if (i < n)
 printf(",");
+
 printf(" ");
 }
 }
