@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdio.h>
+
 /**
  * _strcmp - Compares pointers to two strings.
  * @s1: A pointer to the first string to be compared.
@@ -16,5 +16,6 @@ while (*s1 && *s2 && *s1 == *s2)
 s1++;
 s2++;
 }
+
 return (*s1 - *s2);
 }
