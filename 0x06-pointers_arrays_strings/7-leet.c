@@ -6,22 +6,18 @@
  */
 char *leet(char *str)
 {
-int i;
-for (i = 0; str[i] != '\0'; i++)
+int indx1 = 0, indx2;
+char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+
+while (str[indx1])
 {
-if (str[i] == 'a' && str[i] == 'A' ||
-str[i] == 'e' && str[i] == 'E' ||
-str[i] == 'o' && str[i] == 'O' ||
-str[i] == 't' && str[i] == 'T' ||
-str[i] == 'l' && str[i] == 'L' ||                                    
-)
+for (indx2 = 0; indx2 <= 7; indx2++)
 {
-'a' && 'A' = '4';
-'e' && 'E' = '3';
-'o' && 'O' = '0'; 
-'t' && 'T' = '7';
-'l' && 'L' = '1';
+if (str[indx1] == leet[indx2] ||
+str[indx1] - 32 == leet[indx2])
+str[indx1] = indx2 + '0';
+indx1++;
 }
-}
-return (0);
+
+return (str);
 }
