@@ -5,7 +5,7 @@
  * @dest: variable pointer dest
  * @src: varable pointer src
  * @n: integer variable n
- * Retrun: to character dest
+ * Return: to character dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
