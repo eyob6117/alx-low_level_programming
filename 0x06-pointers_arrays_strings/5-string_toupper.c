@@ -1,19 +1,18 @@
 #include "holberton.h"
+
 /**
- * *string_toupper - function that changes all lowercase letters to upper
- * @*: character type
- * Return: character
+ * string_toupper - a function that changes all lower of a string to upper
+ * @n: input string
+ * Return: capitialized string
  */
-char *string_toupper(char *str)
+char *string_toupper(char *n)
 {
 int i;
-while (str[i])
+
+for (i = 0; n[i] != '\0'; i++)
 {
-if (str[i] >= 97 && stri[i] <= 122)
-{
-str[i] = str[i] - 32;
+if (n[i] >= 'a' && n[i] <= 'z')
+n[i] = n[i] - 32;
 }
-i++;
-}
-return (str);
+return (n);
 }
