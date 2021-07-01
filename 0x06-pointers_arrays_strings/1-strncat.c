@@ -1,14 +1,14 @@
 #include "hlberton.h"
 #include <stdio.h>
 /**
- * *_strncpy - function that copies a string
+ * *_strncat - function that concatenates two string
  * @dest: variable pointer dest
  * @src: varable pointer src
  * @n: integer variable n
- * Retrun: to char
+ * Retrun: to character dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
-strncpy(dest, src, n);
+strncat(dest, src, n);
 return (dest);
 }
