@@ -13,6 +13,7 @@ if (str[i] >= 97 && stri[i] <= 122)
 {
 str[i] = str[i] - 32;
 }
-return (str);
 }
+return (str);
+
 }
