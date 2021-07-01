@@ -9,7 +9,6 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-if (src < dest)
 strncat(dest, src, n);
 return (dest);
 }
