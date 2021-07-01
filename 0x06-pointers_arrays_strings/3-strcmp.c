@@ -8,11 +8,6 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-if strlen(s1) > strlent(s2)
-{
-return (s1);	     
-}
-else
-{   
-return (s2);
-}
+strcmp(s1 ,s2);
+return (0);
+} 
