@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _strchr - finds if char occurs in string
+ * *_strchr - finds if char occurs in string
  *
  * @s: string to check
  * @c: character to find in s
