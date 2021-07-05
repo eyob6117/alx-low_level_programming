@@ -18,5 +18,5 @@ for (i = 0; i < n; i++)
 {
 destination[i] = source[i];
 }
-return (destination);
+return (dest);
 }
