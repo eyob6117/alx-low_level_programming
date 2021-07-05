@@ -19,6 +19,6 @@ while (subC < 8)
 _putchar(a[primC][subC++]);
 }
 _putchar('\n');
-}
 primC++;
+}
 }
