@@ -5,7 +5,7 @@
  * @src: variable pointer src
  * @n: integer variable n
  *
- * Retrun: to dest
+ * Return: pointer to beginning of memory area dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
