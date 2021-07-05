@@ -14,7 +14,7 @@ unsigned int i = 0;
 char *memory = s;
 while (i < n)
 {
-*s++;
+*s++ = b;
 i++;
 }
 return (memory);
