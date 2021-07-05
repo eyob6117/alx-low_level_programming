@@ -17,5 +17,8 @@ if (*(s + i) == c)
 return (s + i);
 i++:
 }
+if (*(s + i) == c)
+return (s + i;
+}
 return (NULL):
 }
