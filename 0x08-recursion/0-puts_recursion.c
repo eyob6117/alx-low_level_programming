@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _puts - function that prints a string, followed by a  newline
+ * _puts_recursion - function that prints a string, followed by a  newline
  * @s: variable pointer s
  */
 
@@ -12,4 +12,5 @@ return;
 }
 _putchar(*s);
 _puts_recursion(s + 1);
+_putschar('\n');
 }
