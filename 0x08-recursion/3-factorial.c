@@ -1,5 +1,5 @@
 #include "holberton.h"
-0;276;0c/**
+/**
  * factorial - function that returns the factorial
  * @n: integer varialble
  *
