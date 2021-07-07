@@ -1,0 +1,15 @@
+#include "holberton.h"
+/**
+ * _puts - function that prints a string, followed by a  newline
+ * @s: variable pointer s
+ */
+
+void _puts_recursion(char *s)
+{
+int i = 0;
+while (i < '/0')
+{
+_putchar(s[i]);
+}
+_putchar('\n');
+}
