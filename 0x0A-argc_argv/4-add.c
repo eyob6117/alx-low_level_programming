@@ -16,20 +16,15 @@ int sum = 0;
 if (argc < 1)
 {
 return (0);
-}
-else
-{   
-for (i = 0; i < argc; i++)
+}   
+for (i = 1; i < argc; i++)
 {
 if (!atoi(argv[i]))
 {
 printf("%s\n", "Error");
 return (1);
 }
-else
-{
 sum += argv[i];
-}
 }  
 printf("%d", sum);
 }
