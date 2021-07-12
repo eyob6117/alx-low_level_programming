@@ -15,7 +15,7 @@ int i;
 int mul;
 if (argc < 2)
 {
-printf("Error\n");
+printf("%s\n", "Error");
 return (1);
 }
 else
