@@ -1,5 +1,5 @@
 #include <stdio.h>
-0;276;0c/**
+/**
  * main - program that prints the number of argument
  * @argc: integer variable
  * @argv: pointer variable with array
