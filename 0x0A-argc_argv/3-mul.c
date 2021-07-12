@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include "holberton.h"
 #include <stdlib.h>
+#include "holberton.h"
 /**
- * main - program that multiples two numbers
- * @argc: integer variable
- * @argv: variable array pointer
- *
- * Return: Always(0)
+ * main - Entry Point
+ * atoi is a function that converts a string into an int
+ * @argc: arguments
+ * @argv: array pointing to arguments
+ * Return: 0
  */
-
 int main(int argc, char *argv[])
 {
-int i;
-int mul  = 1;
+int i, res = 1;
+
 if (argc != 3)
 {
 printf("%s\n", "Error");
@@ -20,11 +19,11 @@ return (1);
 }
 else
 {
-for (i = 0; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
-mul *= atoi(argv[i]);
+res *= atoi(argv[i]);
 }
-printf("%d\n", mul);
+printf("%d\n", res);
 }
 return (0);
 }
