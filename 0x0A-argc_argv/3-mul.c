@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "holberton.h"
+#include <stdlib.h>
 /**
  * main - program that multiples two numbers
  * @argc: integer variable
