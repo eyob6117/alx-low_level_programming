@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include "holberton.h"
 /**
- * main - program that prints the number of argument
- * @argc: integer variable
- * @argv: pointer variable with array
- * Return: Always(0) sucess
+ * main - Entry Point
+ * @argc: arguments
+ * @argv: array pointing to arguments
+ * Return: 0
  */
-
 int main(int argc, __attribute__((unused)) char *argv[])
 {
-printf("%d", --c);
+int i;
+
+for (i = 0; i < argc; i++)
+{
+}
+printf("%d\n", i - 1);
 return (0);
 }
