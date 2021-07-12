@@ -7,7 +7,7 @@
  * Return: Always(0) sucess
  */
 
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
 printf("%d", --c);
 return (0);
