@@ -1,5 +1,6 @@
 #include <stdio.h>
-0;276;0c/**
+#include "holberton.h"
+/**
  * main - program that prints the number of argument
  * @argc: integer variable
  * @argv: pointer variable with array
@@ -8,10 +9,6 @@
 
 int main(int argc, char *argv[])
 {
-int i;
-for (i = 0; i < argc; i++)
-{
-}
-printf("%d\n", i - 1);
+printf("%d", --c);
 return (0);
 }
