@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - program that prints its name
- *
+ * @argc: integer variable
+ * @argv: pointer variable with array
  * Return: Always(0) sucess
  */
 
