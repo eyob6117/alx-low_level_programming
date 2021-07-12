@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**
+0;276;0c/**
  * main - program that prints the number of argument
  * @argc: integer variable
  * @argv: pointer variable with array
@@ -8,7 +8,10 @@
 
 int main(int argc, char *argv[])
 {
-printf("%d\n", argc - 1);
-
+int i;
+for (i = 0; i < argc; i++)
+{
+}
+printf("%d\n", i - 1);
 return (0);
 }
