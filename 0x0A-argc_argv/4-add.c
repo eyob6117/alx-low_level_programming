@@ -5,7 +5,6 @@
  * main - program that adds positive numbers
  * @argc: integer variable
  * @argv: variaple pointer
- *
  * Return: Always(0)
  */
 
@@ -27,6 +26,5 @@ return (1);
 sum += atoi(argv[i]);
 }
 printf("%d\n", sum);
-
 return (0);
 }
