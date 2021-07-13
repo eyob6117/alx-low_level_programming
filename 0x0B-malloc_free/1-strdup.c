@@ -6,7 +6,7 @@
  */
 char *_strdup(char *str)
 {
-char array[];
+char *array;
 unsigned int i;
 if (str == NULL)
 return(NULL);   
