@@ -1,5 +1,6 @@
 #include "holberton.h"
 #include <stddef.h>
+#include <stdlib.h>
 /**
  * *_strdup - function that returns a pointer to a newly allocated space
  * @str: pointer variable
