@@ -4,13 +4,16 @@
 /**
  * *malloc_checked - function that allocates memory using malloc
  * @b: integer variable
+ * 
+ * Return: A pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
 {
-void *mall;
-mal = malloc(b);
+void *mal = malloc(b);
 if (mal == NULL)
+{
 exit(98);
+}
 else
 return (mal);
 }
