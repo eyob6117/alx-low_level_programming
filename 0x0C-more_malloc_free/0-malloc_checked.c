@@ -8,8 +8,8 @@
 void *malloc_checked(unsigned int b)
 {
 int *mall;
-mal = malloc(sizeof(*mall) * b);
-if (!mal)
+mal = (int *)malloc(sizeof(*mall) * b);
+if (mal == NULL)
 return (98);
 else
 return (mal);
