@@ -33,7 +33,7 @@ return (NULL);
 len = 0;
 
 for (index = 0; s1[index]; index++)
-concat[len++] = s1[index - 1];
+concat[len++] = s1[index];
 
 for (index = 0; s2[index] && index < n; index++)
 concat[len++] = s2[index];
