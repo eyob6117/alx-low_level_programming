@@ -19,7 +19,7 @@ unsigned int index;
 if (nmemb == 0 || size == 0)
 return (NULL);
 
-mem = malloc(size * nmemb);
+mem = (char *)malloc(size * nmemb);
 
 if (mem == NULL)
 return (NULL);
