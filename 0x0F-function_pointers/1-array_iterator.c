@@ -7,13 +7,13 @@
  * @array: argument 1
  * @size: integer variable
  * @action: pointer variable
- * 
+ *
  */
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 unsigned int i = 0;
-if (action == NULL || array == NULL) 
+if (action == NULL || array == NULL)
 {
 return;
 }
