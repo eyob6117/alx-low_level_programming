@@ -5,7 +5,7 @@
  * @array: array of integer
  * @size: size of array
  * @cmp: callback function
- * 
+ *
  * Return: to int
  */
 int int_index(int *array, int size, int (*cmp)(int))
