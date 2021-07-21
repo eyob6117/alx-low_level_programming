@@ -1,4 +1,0 @@
-[master 27767bf] tasks on function pointer
- 3 files changed, 22 insertions(+), 1 deletion(-)
- create mode 100644 0x0F-function_pointers/1-array_iterator.c
- create mode 100644 0x0F-function_pointers/1-array_iterator.c~
