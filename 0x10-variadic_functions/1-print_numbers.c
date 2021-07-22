@@ -16,7 +16,7 @@ return;
 va_start(li, n);
 for (i = 1; i < n; i = va_arg(li, int))
 {
-printf("%d %c",i,separator);
+printf("%d %s",i,separator);
 va_end(li);
 }
 putchar('\n');
