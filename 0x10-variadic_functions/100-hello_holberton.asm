@@ -1,16 +1,21 @@
-	section .data			;.data starts here
-	msg db 10d,13d,"Hello, Holberton "	;String gets initialized
-	l equ $-msg			;Length Of String
-	section .text			;.text starts here
-	global _start			;Moving to _start
-_start:					;_start label
-	mov rax,1			;Sys_Write Function
-	mov rdi,1			;Std_Out File Descriptor
-	mov rsi,msg			;Offset of msg
-	mov rdx,l			;Length Of msg
-	syscall				;Call the Kernel
+; File: 100-hello_holberton.asm
+;
+; Desc: 64-bit assembly program that prints
+        
 
-	mov rax,60		;Sys_Exit Function
-	mov rdi,0		;Sucessful Termination
-	syscall			;Call The Kernel
-	end
+section .text
+       global main
+
+main:
+	mov edx,len
+	mov ecx,msg
+	mov ebx,1
+	mov eax,4
+	int 0x80
+
+	mov eax,0
+	int 0x80
+
+	section .data
+msg:	 db 'Hello, Holberton', 0xa
+len:	 equ $ - msg
