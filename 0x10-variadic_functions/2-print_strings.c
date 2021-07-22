@@ -15,13 +15,16 @@ va_list str;
 va_start(str, n);
 for (i = 0; i < n; i++)
 {
-printf("%s", va_arg(str,char *));
 if (i != (n - 1) && separator == NULL)
 printf("%s", separator);
-}
 if (va_arg(str, char *) == NULL)
 {
-printf("nil");
+printf("(nil)");
+}
+else
+{
+printf("%s", va_arg(str, char *));
+}
 }
 printf("\n");
 va_end(str);
