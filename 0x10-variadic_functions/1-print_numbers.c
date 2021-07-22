@@ -14,10 +14,12 @@ va_list li;
 if (separator == NULL)
 return;
 va_start(li, n);
-for (i = 1; i < n; i = va_arg(li, int))
+for (i = 0; i < n; i++))
 {
-printf("%d %s",i,separator);
-va_end(li);
+printf("%d",va_arg(li, int);
+if (i != (n -1) && separator != NULL)
+printf("%s", separator);
 }
-putchar('\n');
+printf("\n");
+va_end(li);
 }
