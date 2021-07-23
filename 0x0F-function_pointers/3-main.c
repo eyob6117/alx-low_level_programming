@@ -28,13 +28,13 @@ one = atoi(argv[1]);
 two = atoi(argv[3]);
 get_op = argv[2];
 
-  /* added edge case if argv[2] was longer than 1 char*/
+/* added edge case if argv[2] was longer than 1 char*/
 if (get_op_func(argv[2]) == NULL || argv[2][1] != '\0')
 {
 printf("Error\n");
 exit(99);
 }
-  
+
 
 if ((*get_op == '/' || *get_op == '%') && (*argv[3] == '0'))
 {
